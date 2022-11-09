@@ -27,4 +27,13 @@ class singlyLinkedList {
 }
 var list = new singlyLinkedList();
 list.push("Hello");
-// list.push("goodbye");
+
+
+//method to traverse a list
+traverse() {
+    var current = this.head;
+    while (current) {
+        current = current.next;
+    }
+
+}
