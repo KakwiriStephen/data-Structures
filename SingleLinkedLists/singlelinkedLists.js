@@ -77,6 +77,22 @@ class singlyLinkedList {
         this.length++;
         return this;
     }
+
+    //get by index
+    get(index) {
+        if (index < 0 || index > this.length) return null;
+        var counter = 0;
+        var current = this.head;
+        while (counter !== index) {
+            current = current.next;
+            counter++;
+        }
+        return current;
+    }
 }
 var list = new singlyLinkedList();
 list.push("Hello");
+list.push("Goodbye");
+list.push("Kakwiri");
+list.push("Ngota");
+list.push("Stephen");
