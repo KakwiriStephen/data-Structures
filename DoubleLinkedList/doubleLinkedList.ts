@@ -19,3 +19,11 @@ class Node{
     }
 
 }
+
+class DoublyLinkedlist{
+    constructor(){
+        this.head=null;
+        this.tail=null;
+        this.length=0;
+    }
+}
