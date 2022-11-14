@@ -52,7 +52,7 @@ class DoublyLinkedlist{
             poppedNode.prev=null
         }
         this.length--;
-        return poppedNode
-    }
+        return poppedNode;
+    } 
 
 }
