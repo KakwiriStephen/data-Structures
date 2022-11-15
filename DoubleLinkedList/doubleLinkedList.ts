@@ -40,6 +40,7 @@ class DoublyLinkedlist{
         return this;
     }
 
+   //pop method
     pop(){
         if(!this.head) return undefined;
         var poppedNode=this.tail;
