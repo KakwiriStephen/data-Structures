@@ -71,4 +71,6 @@ class DoublyLinkedlist{
 
     }
 
+    //Umshift method
+
 }
