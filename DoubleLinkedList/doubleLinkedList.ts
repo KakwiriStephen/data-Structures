@@ -96,6 +96,14 @@ class DoublyLinkedlist{
                 current=current.next;
                 count ++;
             } return current;
+        }else{
+            var count = this.length -1;
+            var current=this.tail;
+            while(count !== index){
+                current=current.prev;
+                count--;
+            }
+            return current;
         }
     }
 
