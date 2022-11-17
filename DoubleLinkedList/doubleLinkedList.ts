@@ -87,5 +87,16 @@ class DoublyLinkedlist{
     }
 
     //get method
+    get(index){
+        if(index<0 || index >=this.length) return null;
+        if(index <= this.length/2){
+            var count = 0;
+            var current = this.head;
+            while(count != index){
+                current=current.next;
+                count ++;
+            } return current;
+        }
+    }
 
 }
