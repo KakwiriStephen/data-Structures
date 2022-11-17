@@ -136,5 +136,9 @@ class DoublyLinkedlist{
         this.length++;
         return true;
     }
+    //Remove
+    remove(index){
+        
+    }
 
 }
