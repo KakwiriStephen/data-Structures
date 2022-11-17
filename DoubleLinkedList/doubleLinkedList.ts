@@ -86,4 +86,6 @@ class DoublyLinkedlist{
         return this
     }
 
+    //get method
+
 }
