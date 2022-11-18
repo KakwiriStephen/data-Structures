@@ -1,4 +1,4 @@
-//1
+
 //Merging two sorted arrays
 
 function mergeTwo(arr1,arr2){
