@@ -1,4 +1,5 @@
 //Stack and Queues
+//Using Unshift and shift
 
 class Node {
     constructor(value) {
@@ -25,5 +26,19 @@ class stack {
             this.first.next = temp;
         }
         return ++this.size;
+    }
+
+    pop() {
+        if (!this.first) return null;
+        var temp = this.first;
+
+        if (this.first === this.last) {
+            this.last = null;
+        }
+        this.first = this.first.next;
+        this.size--;
+        return temp.value;
+
+        return temp.value;
     }
 }
