@@ -40,7 +40,17 @@ class BinarySearchTree {
         if (this.root === null) {
             this.root = newNode;
             return this;
-        } else {}
+        } else {
+            var current = this.root;
+            while (true) {
+                if (value < current.value) {
+                    if (current.left === null) {
+                        current.left = newNode;
+                        return this;
+                    }
+                }
+            }
+        }
     }
 }
 
