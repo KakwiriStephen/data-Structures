@@ -35,4 +35,14 @@ class BinarySearchTree {
     constructor() {
         this.root = null;
     }
+    insert(value) {
+        var newNode = new Node(value);
+        if (this.root === null) {
+            this.root = newNode;
+            return this;
+        } else {}
+    }
 }
+
+var tree = new BinarySearchTree();
+tree.insert();
