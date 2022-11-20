@@ -43,10 +43,21 @@ class BinarySearchTree {
         } else {
             var current = this.root;
             while (true) {
+                //left
                 if (value < current.value) {
                     if (current.left === null) {
                         current.left = newNode;
                         return this;
+                    } else {
+                        current = current.left;
+                    }
+                    //right
+                } else if (value > current.value) {
+                    if (current.right === null) {
+                        current.right = newNode;
+                        return this;
+                    } else {
+                        current = current.right;
                     }
                 }
             }
@@ -55,4 +66,10 @@ class BinarySearchTree {
 }
 
 var tree = new BinarySearchTree();
-tree.insert();
+tree.insert(10);
+tree.insert(5);
+tree.insert(13);
+tree.insert(11);
+tree.insert(2);
+tree.insert(16);
+tree.insert(7);
