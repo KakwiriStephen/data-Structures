@@ -65,6 +65,9 @@ class BinarySearchTree {
             }
         }
     }
+
+    //// find ///
+    find(value) {}
 }
 
 var tree = new BinarySearchTree();
