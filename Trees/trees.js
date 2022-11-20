@@ -43,6 +43,8 @@ class BinarySearchTree {
         } else {
             var current = this.root;
             while (true) {
+                // handling Duplicates
+                if (value === current.value) return undefined;
                 //left
                 if (value < current.value) {
                     if (current.left === null) {
