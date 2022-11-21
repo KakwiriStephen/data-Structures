@@ -38,20 +38,20 @@ class BinarySearchTree {
     //Tree traversal
     //BreadthWise
     BFS() {
-        var node = this.root,
-            data = [],
-            queue = [];
+            var node = this.root,
+                data = [],
+                queue = [];
 
-        queue.push(node);
-        while (queue.length) {
-            node = queue.shift();
-            data.push(node.value);
-            if (node.left) queue.push(node.left);
-            if (node.right) queue.push(node.right);
+            queue.push(node);
+            while (queue.length) {
+                node = queue.shift();
+                data.push(node.value);
+                if (node.left) queue.push(node.left);
+                if (node.right) queue.push(node.right);
+            }
+            return data;
         }
-        return data;
-    }
-
+        ///preOder
     DFSPreOrder() {
         var data = [];
 
@@ -59,6 +59,20 @@ class BinarySearchTree {
             data.push(node.value);
             if (node.left) traverse(node.left);
             if (node.right) traverse(node.right);
+        }
+        traverse(this.root);
+
+        return data;
+    }
+
+    ///post Order
+    DFSPostOrder() {
+        var data = [];
+
+        function traverse(node) {
+            if (node.left) traverse(node.left);
+            if (node.right) traverse(node.right);
+            data.push(node.value);
         }
         traverse(this.root);
 
