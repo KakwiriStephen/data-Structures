@@ -37,7 +37,16 @@ class BinarySearchTree {
 
     //Tree traversal
     //BreadthWise
-    BFS() {}
+    BFS() {
+        var node = this.root,
+            data = [],
+            queue = [];
+
+        queue.push(node);
+        while (queue.length) {
+            node = queue.shift();
+        }
+    }
 }
 
 var tree = new BinarySearchTree();
