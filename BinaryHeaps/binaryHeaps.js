@@ -16,12 +16,12 @@ class MaxBinaryHeap {
         while (true) {
             let parentIdx = Math.floor((idx - 1) / 2);
             let parent = this.value[parentIdx];
-            if (element > parent) {
-                this.values[parentIdx] = element;
-                this.values[idx] = parent;
-            }
+            if (element <= parent) break;
+            this.values[parentIdx] = element;
+            this.values[idx] = parent;
         }
     }
 }
+
 let heap = new MaxBinaryHeap();
 heap.insert(55);
