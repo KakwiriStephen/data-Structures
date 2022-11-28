@@ -31,8 +31,8 @@ function binarySearch(arr, elem) {
 }
 binarySearch([1, 2, 5, 6, 7, 9, 11, 34], 11);
 
-// Naive Search
 
+// Naive Search
 function naiveSearch(long, short) {
     var count = 0;
     for (let i = 0; i < long.length; i++) {
