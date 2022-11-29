@@ -1,6 +1,6 @@
 //Binary Heaps
-
 // Max Heap
+// Root is the maximum
 
 class MaxBinaryHeap {
     constructor() {
