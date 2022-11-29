@@ -43,6 +43,18 @@ class MaxBinaryHeap {
                     swap=leftChildIdx
                 }
             }
+            if (rightChildIdx < length){
+                rightChild=this.values[rightChildIdx];
+                if(swap===null && rightChild > element) ||
+                 (swap !== && rightChild > leftChild){
+                    swap = rightChildIdx
+                 }
+                 if(swap === null) break;
+                 this.values[idx]=this.values[swap];
+                 this.values[swap]=element;
+                 idx=swap
+
+            }
         }
     }
 
