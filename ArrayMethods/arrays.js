@@ -120,7 +120,6 @@ console.log(movements.includes(-130));
 // [1, 2, 3],
 // [4, 5, 6], 78
 // ];
-// console.log(arr.flat());
 
 // sorting
 const owners = ["jonas", "kakwiri", "kabuda"];
