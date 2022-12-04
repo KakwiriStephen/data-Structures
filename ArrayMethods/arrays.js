@@ -63,32 +63,32 @@ console.log(letters.join("*"));
 // implimenting a loop using for statement
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 for (const movement of movements) {
-    if (movement > 0) {
-        console.log(`You have deposited ${movement}`);
-    } else {
-        console.log(`You withdrew ${Math.abs(movement)}`);
-    }
+  if (movement > 0) {
+    console.log(`You have deposited ${movement}`);
+  } else {
+    console.log(`You withdrew ${Math.abs(movement)}`);
+  }
 }
 console.log("====KAKWIRI====");
 // implimenting the same loop using for each method
 // for each does not support break and continues
-movements.forEach(function(movement, i, arr) {
-    if (movement > 0) {
-        console.log(`Movement ${i + 1}: You have deposited ${movement}`);
-    } else {
-        console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
-    }
+movements.forEach(function (movement, i, arr) {
+  if (movement > 0) {
+    console.log(`Movement ${i + 1}: You have deposited ${movement}`);
+  } else {
+    console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
+  }
 });
 
 // Map
 const currencies = new Map([
-    ["USD", "United States dollar"],
-    ["EUR", "Euro"],
-    ["GBP", "Pound sterling"],
+  ["USD", "United States dollar"],
+  ["EUR", "Euro"],
+  ["GBP", "Pound sterling"],
 ]);
 
-currencies.forEach(function(value, key, map) {
-    console.log(`${key}: ${value}`);
+currencies.forEach(function (value, key, map) {
+  console.log(`${key}: ${value}`);
 });
 
 // THE FIND METHOD ?
@@ -132,7 +132,6 @@ console.log(owners.sort);
 // for numbers we need to call a callback function with two parameters
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 movements.sort((a, b) => {
-    if (a > b) return -1;
-    if (b > a) return 1;
+  if (a > b) return -1;
+  if (b > a) return 1;
 });
-// console.log(movements);
