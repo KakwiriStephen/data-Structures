@@ -111,13 +111,11 @@ console.log(movements.includes(-130));
 // returns a true value when all the elements satisfy the specific condition
 
 // Flat method
-
 // in a nested Array, the flat method returns all the arrays as a single array ***for one level deep(1)
 // const arr = [
 // [1, 2, 3],
 // [4, 5, 6], 78
 // ];
-
 // sorting
 const owners = ["jonas", "kakwiri", "kabuda"];
 console.log(owners.sort);
