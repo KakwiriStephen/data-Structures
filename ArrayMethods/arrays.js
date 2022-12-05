@@ -33,8 +33,6 @@ console.log(arr.slice(...arr));
 // Splice method
 // works in the same way as slice method but changes the main array and mutates it
 // used to remove elements from an array
-console.log(arr.splice(2));
-console.log(arr);
 
 // reverse method
 // it revesrse the array
@@ -53,7 +51,6 @@ console.log([...arr, ...arr2]); //spread that concatinates without mutating the 
 // Join method
 console.log(letters.join("*"));
 
-// Other Methods
 // Push method
 // Pop method
 // index of method
