@@ -10,4 +10,6 @@ function insertionSort(arr){
     }
     return arr;
 }
+
+
 insertionSort([9,7,5,2,1])
