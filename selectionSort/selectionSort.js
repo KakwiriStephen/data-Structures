@@ -1,7 +1,6 @@
 //Setting the first index as the minimum
 //then comparing with the other indices
 //if new minimum swap
-
 function selectionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
         let lowest = i;
