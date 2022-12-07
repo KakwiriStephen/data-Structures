@@ -40,8 +40,6 @@ function factorial(num) {
 
 factorial(3);
 
-//output (3*2*1)
-
 //Helper function
 function collectOddvalues(arr) {
     let newArr = [];
