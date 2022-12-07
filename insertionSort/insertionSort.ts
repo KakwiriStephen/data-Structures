@@ -1,4 +1,4 @@
-//sortimg the left hand side
+//sortimg the left side
 
 function insertionSort(arr){
     for(var i=1; i<arr.length; i++){
@@ -8,7 +8,6 @@ function insertionSort(arr){
         }
         arr[j+1] = currentVal;
     }
-    
     return arr;
 }
 insertionSort([9,7,5,2,1])
