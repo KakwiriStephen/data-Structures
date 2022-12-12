@@ -1,4 +1,5 @@
 //helper functions
+
 //.1)helper function to return the digit in num at the given place value
 
 function getDigit(num, i) {
