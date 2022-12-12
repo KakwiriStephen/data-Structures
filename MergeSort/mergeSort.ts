@@ -1,6 +1,5 @@
 
 //Merging two sorted arrays
-
 function mergeTwo(arr1,arr2){
 
     let results=[];
@@ -72,5 +71,7 @@ function mergeSort(arr){
     return merge(left,right)
     
 }
+
+// KAKWIRi
 
 mergeSort([10,24,76,73])
