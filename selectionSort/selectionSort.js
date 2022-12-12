@@ -1,4 +1,3 @@
-//Selection sort
 //Setting the first index as the minimum
 //then comparing with the other indices
 //if new minimum swap
