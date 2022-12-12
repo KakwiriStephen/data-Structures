@@ -30,7 +30,6 @@ sumRange(3);
 // output(3+2+1)
 
 //factorial
-
 function factorial(num) {
     if (num === 1) return 1;
     return num * factorial(num - 1);
@@ -51,5 +50,4 @@ function collectOddvalues(arr) {
     newArr = newArr.concat(collectOddvalues(arr.slice(1)));
     return newArr;
 }
-
 collectOddvalues([1, 2, 3, 4, 5, 6, 7, 8, 9]);
