@@ -1,5 +1,4 @@
 //countdown Numbers in descending order
-
 // method 1
 function descendNum(startNum) {
     console.log(startNum);
@@ -23,7 +22,6 @@ function countdown(num) {
 countdown(10);
 
 //Sum Range of numbers
-
 function sumRange(num) {
     if (num === 1) return 1;
     return num + sumRange(num - 1);
