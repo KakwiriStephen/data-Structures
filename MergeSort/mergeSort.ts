@@ -72,6 +72,4 @@ function mergeSort(arr){
     
 }
 
-// KAKWIRi
-
 mergeSort([10,24,76,73])
