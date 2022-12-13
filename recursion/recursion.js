@@ -20,7 +20,6 @@ function countdown(num) {
     countdown(num);
 }
 countdown(10);
-
 //Sum Range of numbers
 function sumRange(num) {
     if (num === 1) return 1;
