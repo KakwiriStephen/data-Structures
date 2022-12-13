@@ -20,6 +20,7 @@ function countdown(num) {
     countdown(num);
 }
 countdown(10);
+
 //Sum Range of numbers
 function sumRange(num) {
     if (num === 1) return 1;
@@ -27,6 +28,7 @@ function sumRange(num) {
 }
 sumRange(3);
 // output(3+2+1)
+
 //factorial
 function factorial(num) {
     if (num === 1) return 1;
