@@ -8,7 +8,6 @@ function descendNum(startNum) {
     }
 }
 descendNum(10);
-
 // method2
 function countdown(num) {
     if (num <= 0) {
@@ -37,7 +36,7 @@ function factorial(num) {
 
 factorial(3);
 
-//Helper function
+// Helper function
 function collectOddvalues(arr) {
     let newArr = [];
 
