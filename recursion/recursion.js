@@ -50,5 +50,5 @@ function collectOddvalues(arr) {
     newArr = newArr.concat(collectOddvalues(arr.slice(1)));
     return newArr;
 }
-//Call
+
 collectOddvalues([1, 2, 3, 4, 5, 6, 7, 8, 9]);
