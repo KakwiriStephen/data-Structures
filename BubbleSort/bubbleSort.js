@@ -16,6 +16,7 @@ function bubbleSort(arr) {
         }
         if (noSwaps) break;
     }
+
     return arr;
 }
 bubbleSort([37, 45, 29, 8, 24, 6]);
