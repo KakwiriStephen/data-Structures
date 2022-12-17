@@ -10,6 +10,8 @@ DoublyLinkedlist
 length
 */
 
+//Double
+
 class Node{
     constructor(val){
         this.val=val;
