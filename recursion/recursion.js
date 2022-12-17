@@ -1,5 +1,5 @@
 //countdown Numbers in descending order
-// method 1
+// /method 1
 function descendNum(startNum) {
     console.log(startNum);
     let nextNum = startNum - 1;
