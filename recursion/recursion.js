@@ -28,7 +28,7 @@ function sumRange(num) {
 sumRange(3);
 // output(3+2+1)
 
-//factorial
+////factorial
 function factorial(num) {
     if (num === 1) return 1;
     return num * factorial(num - 1);
