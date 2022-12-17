@@ -119,7 +119,7 @@ class DoublyLinkedlist{
     }
 
     //insert
-    //Insert
+
 
     insert(index, val){
         if (index < 0 || index >= this.length) return false;
