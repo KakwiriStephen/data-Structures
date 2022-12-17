@@ -36,7 +36,7 @@ function factorial(num) {
 
 factorial(3);
 
-// Helper function
+////////////////// Helper function
 function collectOddvalues(arr) {
     let newArr = [];
 
