@@ -10,8 +10,6 @@ DoublyLinkedlist
 length
 */
 
-
-
 class Node{
     constructor(val){
         this.val=val;
@@ -121,6 +119,7 @@ class DoublyLinkedlist{
     }
 
     //insert
+
 
     insert(index, val){
         if (index < 0 || index >= this.length) return false;
