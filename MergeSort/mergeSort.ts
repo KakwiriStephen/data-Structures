@@ -1,4 +1,3 @@
-
 //Merging two sorted arrays
 function mergeTwo(arr1,arr2){
 
@@ -31,7 +30,6 @@ mergeTwo([1,4,10,14,50],[2,14,16,99])
 
 
 //full implementtation
-//1
 //Merging two sorted arrays
 
 function merge(arr1,arr2){
@@ -71,5 +69,5 @@ function mergeSort(arr){
     return merge(left,right)
     
 }
-//Call Mainn
+
 mergeSort([10,24,76,73])
