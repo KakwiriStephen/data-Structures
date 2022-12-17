@@ -71,5 +71,5 @@ function mergeSort(arr){
     return merge(left,right)
     
 }
-
+//Call Mainn
 mergeSort([10,24,76,73])
