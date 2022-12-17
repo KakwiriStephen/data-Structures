@@ -81,7 +81,7 @@ class singlyLinkedList {
     }
     return current;
   }
-  //set
+  ////set
   //changing the value of a node
   set(index, val) {
     var foundNode = this.get(index);
