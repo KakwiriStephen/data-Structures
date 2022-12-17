@@ -44,7 +44,7 @@ class singlyLinkedList {
     return current;
   }
 
-  // // shifting nodes in a list
+  // shifting nodes in a list
   //removing the head,
   shift() {
     if (!this.head) return undefined;
