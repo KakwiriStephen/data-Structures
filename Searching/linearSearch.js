@@ -1,3 +1,4 @@
+//linear Search
 //ONE element at a time
 
 function linearSearch(arr, val) {
