@@ -8,7 +8,7 @@ function descendNum(startNum) {
     }
 }
 descendNum(10);
-//// method2
+// method2
 function countdown(num) {
     if (num <= 0) {
         console.log("All done");
