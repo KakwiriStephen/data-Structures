@@ -33,8 +33,6 @@ console.log(arr.slice(...arr));
 // Splice method
 // works in the same way as slice method but changes the main array and mutates it
 // used to remove elements from an array
-console.log(arr.splice(2));
-console.log(arr);
 
 // reverse method
 // it revesrse the array
@@ -53,7 +51,6 @@ console.log([...arr, ...arr2]); //spread that concatinates without mutating the 
 // Join method
 console.log(letters.join("*"));
 
-// Other Methods
 // Push method
 // Pop method
 // index of method
@@ -63,32 +60,32 @@ console.log(letters.join("*"));
 // implimenting a loop using for statement
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 for (const movement of movements) {
-    if (movement > 0) {
-        console.log(`You have deposited ${movement}`);
-    } else {
-        console.log(`You withdrew ${Math.abs(movement)}`);
-    }
+  if (movement > 0) {
+    console.log(`You have deposited ${movement}`);
+  } else {
+    console.log(`You withdrew ${Math.abs(movement)}`);
+  }
 }
 console.log("====KAKWIRI====");
 // implimenting the same loop using for each method
 // for each does not support break and continues
-movements.forEach(function(movement, i, arr) {
-    if (movement > 0) {
-        console.log(`Movement ${i + 1}: You have deposited ${movement}`);
-    } else {
-        console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
-    }
+movements.forEach(function (movement, i, arr) {
+  if (movement > 0) {
+    console.log(`Movement ${i + 1}: You have deposited ${movement}`);
+  } else {
+    console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
+  }
 });
 
 // Map
 const currencies = new Map([
-    ["USD", "United States dollar"],
-    ["EUR", "Euro"],
-    ["GBP", "Pound sterling"],
+  ["USD", "United States dollar"],
+  ["EUR", "Euro"],
+  ["GBP", "Pound sterling"],
 ]);
 
-currencies.forEach(function(value, key, map) {
-    console.log(`${key}: ${value}`);
+currencies.forEach(function (value, key, map) {
+  console.log(`${key}: ${value}`);
 });
 
 // THE FIND METHOD ?
@@ -114,14 +111,11 @@ console.log(movements.includes(-130));
 // returns a true value when all the elements satisfy the specific condition
 
 // Flat method
-
 // in a nested Array, the flat method returns all the arrays as a single array ***for one level deep(1)
 // const arr = [
 // [1, 2, 3],
 // [4, 5, 6], 78
 // ];
-// console.log(arr.flat());
-
 // sorting
 const owners = ["jonas", "kakwiri", "kabuda"];
 console.log(owners.sort);
@@ -132,7 +126,6 @@ console.log(owners.sort);
 // for numbers we need to call a callback function with two parameters
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 movements.sort((a, b) => {
-    if (a > b) return -1;
-    if (b > a) return 1;
+  if (a > b) return -1;
+  if (b > a) return 1;
 });
-// console.log(movements);

@@ -1,6 +1,5 @@
 //countdown Numbers in descending order
-
-// method 1
+//method 1
 function descendNum(startNum) {
     console.log(startNum);
     let nextNum = startNum - 1;
@@ -9,7 +8,6 @@ function descendNum(startNum) {
     }
 }
 descendNum(10);
-
 // method2
 function countdown(num) {
     if (num <= 0) {
@@ -23,7 +21,6 @@ function countdown(num) {
 countdown(10);
 
 //Sum Range of numbers
-
 function sumRange(num) {
     if (num === 1) return 1;
     return num + sumRange(num - 1);
@@ -31,8 +28,7 @@ function sumRange(num) {
 sumRange(3);
 // output(3+2+1)
 
-//factorial
-
+////factorial
 function factorial(num) {
     if (num === 1) return 1;
     return num * factorial(num - 1);
@@ -40,9 +36,7 @@ function factorial(num) {
 
 factorial(3);
 
-//output (3*2*1)
-
-//Helper function
+// Helper function
 function collectOddvalues(arr) {
     let newArr = [];
 
