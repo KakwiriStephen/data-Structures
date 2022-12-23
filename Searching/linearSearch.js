@@ -10,7 +10,6 @@ function linearSearch(arr, val) {
 linearSearch([1, 2, 3, 4, 5, 6, 7], 6);
 
 //6 is at position 5 Hence 5 is returned
-//
 
 //Binary linearSearch
 function binarySearch(arr, elem) {
