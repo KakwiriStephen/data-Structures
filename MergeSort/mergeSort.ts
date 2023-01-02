@@ -30,7 +30,7 @@ mergeTwo([1,4,10,14,50],[2,14,16,99])
 
 
 
-
+//Merging two sorted arrays
 
 function merge(arr1,arr2){
 
