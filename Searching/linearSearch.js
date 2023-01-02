@@ -44,4 +44,4 @@ function naiveSearch(long, short) {
 }
 naiveSearch("lorie loled", "lo");
 
-// returns a count of 2
+
