@@ -1,6 +1,7 @@
 function bubbleSort(arr) {
     let noSwaps;
-    //If the array is already sorted
+
+    //works on sorted arrays
 
     for (let i = arr.length; i > 0; i--) {
         noSwaps = true;
